@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         jdk 'jdk-17'
-        nodejs 'node16'
+        nodejs 'system-node'
     }
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
